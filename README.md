@@ -23,11 +23,11 @@ console.log(convert('#644CEB').toRGB()); // `rgb(100, 76, 235)`
 | hex              |    ✅    |     ✅     |       ✅        |      ✅       |   
 
 ### Building Source Code
-All code editing is doen within the `\src` directory and when you are ready to try a new build just use `npm run build` and a new build will be created in the `\dist` directory.
+All code editing is done within the `\src` directory and when you are ready to try a new build just use `npm run build` and a new build will be created in the `\dist` directory.
 
 ### Unit Tests
 
-Unit test have been done using a basic Jest implimentation.  These tests can found under the `\test` directory and can be run using `npm run test`.
+Unit test have been done using a basic Jest implementation.  These tests can found under the `\test` directory and can be run using `npm run test`.
 
 ## Authors
 
