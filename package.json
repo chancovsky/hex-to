@@ -1,0 +1,39 @@
+{
+  "name": "hex-to",
+  "version": "1.0.0",
+  "description": "Convert hex color to multiple different types",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel ./src --out-dir ./dist",
+    "prepublish": "npm run build",
+    "lint": "eslint .",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chancovsky/hex-to.git"
+  },
+  "author": {
+    "name": "Connor Hancovsky",
+    "email": "chancovsky@gmail.com",
+    "url": "https://github.com/chancovsky"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.32",
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "@babel/preset-flow": "^7.0.0-beta.33",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "flow-bin": "^0.60.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
+  }
+}
